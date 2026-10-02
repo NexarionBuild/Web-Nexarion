@@ -1,0 +1,9 @@
+<?php
+use Illuminate\Database\Migrations\Migration; use Illuminate\Database\Schema\Blueprint; use Illuminate\Support\Facades\Schema;
+return new class extends Migration { public function up(): void {
+Schema::create('site_settings',function(Blueprint $t){$t->id();$t->string('email')->nullable();$t->string('whatsapp')->nullable();$t->string('instagram')->nullable();$t->string('linkedin')->nullable();$t->text('address')->nullable();$t->string('hours')->nullable();$t->boolean('maintenance')->default(false);$t->text('maintenance_message')->nullable();$t->timestamps();});
+Schema::create('content_items',function(Blueprint $t){$t->id();$t->string('uid')->unique();$t->string('module')->index();$t->unsignedInteger('sort_order')->default(0);$t->text('data');$t->timestamps();});
+Schema::create('messages',function(Blueprint $t){$t->id();$t->string('uid')->unique();$t->string('from_name');$t->string('email');$t->string('phone')->nullable();$t->string('company')->nullable();$t->string('service')->nullable();$t->string('budget')->nullable();$t->string('timeline')->nullable();$t->string('reference')->nullable();$t->string('subject');$t->text('body');$t->boolean('is_read')->default(false);$t->boolean('is_starred')->default(false);$t->timestamps();});
+Schema::create('notices',function(Blueprint $t){$t->id();$t->string('uid')->unique();$t->string('subject');$t->unsignedInteger('recipient_count')->default(0);$t->text('recipients')->nullable();$t->text('body')->nullable();$t->timestamp('sent_at')->nullable();$t->timestamps();});
+Schema::create('activities',function(Blueprint $t){$t->id();$t->string('type');$t->text('message');$t->timestamp('occurred_at');$t->timestamps();});
+} public function down(): void { Schema::dropIfExists('activities');Schema::dropIfExists('notices');Schema::dropIfExists('messages');Schema::dropIfExists('content_items');Schema::dropIfExists('site_settings'); } };

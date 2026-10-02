@@ -1,0 +1,740 @@
+{
+  "services": [
+    {
+      "slug": "web-development",
+      "num": "01",
+      "icon": "code",
+      "title": "Website Development",
+      "desc": "Fast, well-structured websites built to convert — from company profiles to full e-commerce platforms.",
+      "tags": [
+        "Company Profile",
+        "Landing Page",
+        "Corporate Website",
+        "E-Commerce",
+        "Web Application"
+      ],
+      "overview": "We design and build websites that load fast, rank well, and turn visitors into customers. Every build is performance-first, mobile-ready, and structured so your team can grow it without rebuilding from zero.",
+      "problems": [
+        "Outdated websites that quietly damage credibility",
+        "Slow loading times that push visitors away before they see your offer",
+        "Layouts that break on mobile, where most of your audience lives",
+        "Platforms that are hard or expensive to update"
+      ],
+      "solution": "A clean, modern build: performance-first architecture, semantic and SEO-ready markup, and a CMS-friendly setup so content updates never require touching code.",
+      "whatWeBuild": [
+        "Company Profile",
+        "Landing Page",
+        "E-Commerce",
+        "Web Application",
+        "Dashboard",
+        "Booking System",
+        "Custom Website"
+      ],
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Next.js",
+        "Node.js"
+      ],
+      "benefits": [
+        "Faster load times and better Core Web Vitals",
+        "Stronger search visibility from day one",
+        "Easy content management for non-technical teams",
+        "Architecture that scales with your business"
+      ],
+      "id": "svc-web-development"
+    },
+    {
+      "slug": "ui-ux-design",
+      "num": "02",
+      "icon": "layers",
+      "title": "UI/UX Design",
+      "desc": "Research-driven interfaces that feel obvious to use — validated before a single line of code.",
+      "tags": [
+        "User Research",
+        "Wireframe",
+        "Prototype",
+        "Interface Design",
+        "Design System"
+      ],
+      "overview": "Good design is not decoration — it is how your product works. We research real users, map their journeys, and design interfaces that make every step feel effortless.",
+      "problems": [
+        "Interfaces that confuse users and increase drop-off",
+        "High abandonment during sign-up or checkout flows",
+        "Inconsistent visuals across pages and products",
+        "Design decisions made on guesswork"
+      ],
+      "solution": "A structured design process: research, wireframes, interactive prototypes, and a documented design system your developers can implement without ambiguity.",
+      "whatWeBuild": [
+        "User Research & Flows",
+        "Wireframes",
+        "Interactive Prototypes",
+        "Interface Design",
+        "Design System",
+        "Usability Testing"
+      ],
+      "tech": [
+        "Figma",
+        "Design Tokens",
+        "Prototyping",
+        "Usability Testing"
+      ],
+      "benefits": [
+        "Higher conversion on key flows",
+        "Consistent experience across every screen",
+        "Faster development with a clear design system",
+        "Fewer expensive redesigns later"
+      ],
+      "id": "svc-ui-ux-design"
+    },
+    {
+      "slug": "custom-software",
+      "num": "03",
+      "icon": "cpu",
+      "title": "Custom Software",
+      "desc": "Business systems, dashboards, and internal tools shaped exactly around how your company works.",
+      "tags": [
+        "Business System",
+        "Management System",
+        "Dashboard",
+        "Internal Tools"
+      ],
+      "overview": "Off-the-shelf tools force your business to follow their rules. We build software that follows yours — management systems, dashboards, and internal tools that fit your workflow precisely.",
+      "problems": [
+        "Teams juggling spreadsheets and manual processes",
+        "Data scattered across tools that never talk to each other",
+        "Generic software that cannot adapt to your workflow",
+        "No single source of truth for business decisions"
+      ],
+      "solution": "We map your process first, then design and build a system around it — with clear data models, role-based access, and reporting your team will actually use.",
+      "whatWeBuild": [
+        "Business Systems",
+        "Management Systems",
+        "Operational Dashboards",
+        "Internal Tools",
+        "Reporting Modules",
+        "System Integration"
+      ],
+      "tech": [
+        "Node.js",
+        "Python",
+        "PostgreSQL",
+        "MySQL"
+      ],
+      "benefits": [
+        "Hours of manual work replaced by automation",
+        "One reliable source of truth for your data",
+        "Software that grows with your operations",
+        "Full ownership of your system"
+      ],
+      "id": "svc-custom-software"
+    },
+    {
+      "slug": "digital-solutions",
+      "num": "04",
+      "icon": "net",
+      "title": "Digital Solutions",
+      "desc": "Automation, integrations, and digital transformation for businesses entering the digital era.",
+      "tags": [
+        "Automation",
+        "API Integration",
+        "Database System",
+        "Digital Transformation"
+      ],
+      "overview": "Digital transformation does not have to be overwhelming. We help businesses automate repetitive work, connect their tools, and structure their data — one practical step at a time.",
+      "problems": [
+        "Repetitive manual tasks consuming your team's time",
+        "Tools and platforms that cannot exchange data",
+        "Unstructured data with no clear ownership",
+        "Uncertainty about where to start digitizing"
+      ],
+      "solution": "We audit your current workflow, identify the highest-impact improvements, and implement them incrementally — so transformation is measurable, not disruptive.",
+      "whatWeBuild": [
+        "Workflow Automation",
+        "API Integrations",
+        "Database Architecture",
+        "Migration & Structuring",
+        "Transformation Roadmap"
+      ],
+      "tech": [
+        "REST API",
+        "Webhooks",
+        "MySQL",
+        "MongoDB"
+      ],
+      "benefits": [
+        "Measurable time savings within weeks",
+        "Tools that finally work together",
+        "Clean, structured, usable data",
+        "A clear roadmap instead of guesswork"
+      ],
+      "id": "svc-digital-solutions"
+    },
+    {
+      "slug": "maintenance",
+      "num": "05",
+      "icon": "wrench",
+      "title": "Maintenance & Support",
+      "desc": "Keeping your product fast, secure, and reliable long after launch day.",
+      "tags": [
+        "Website Maintenance",
+        "Performance Optimization",
+        "Security Updates",
+        "Technical Support"
+      ],
+      "overview": "Launch is the beginning, not the finish line. Our maintenance keeps your website healthy — updated, monitored, backed up, and improving — so you never think about it.",
+      "problems": [
+        "Websites that slowly get slower and break silently",
+        "Security vulnerabilities left unpatched",
+        "No backups when something goes wrong",
+        "Nobody to call when an issue appears"
+      ],
+      "solution": "A structured maintenance plan: proactive monitoring, regular updates, performance audits, security patches, and a responsive support channel with clear SLAs.",
+      "whatWeBuild": [
+        "Regular Updates",
+        "Uptime Monitoring",
+        "Performance Audits",
+        "Security Patching",
+        "Backup Management",
+        "Priority Support"
+      ],
+      "tech": [
+        "Uptime Monitoring",
+        "CDN",
+        "Automated Backups",
+        "Security Patches"
+      ],
+      "benefits": [
+        "Peace of mind — issues are caught early",
+        "Consistent speed and reliability",
+        "Protection against common attacks",
+        "A technical partner who knows your system"
+      ],
+      "id": "svc-maintenance"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "aurora-commerce",
+      "title": "Aurora Commerce",
+      "cat": "Website",
+      "tech": [
+        "Next.js",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "year": "2025",
+      "seed": "nx-aurora",
+      "big": true,
+      "desc": "A full e-commerce platform with a custom storefront, inventory dashboard, and payment flow.",
+      "challenge": "The client needed to move from a marketplace-only sales model to an owned platform without losing operational visibility of stock, orders, and fulfilment.",
+      "research": "We mapped the existing sales workflow and interviewed the operations team to understand how orders actually moved through the business day to day.",
+      "strategy": "Phase the migration: launch the storefront first, then move inventory and fulfilment into an integrated dashboard behind it.",
+      "design": "A conversion-focused storefront with a component-driven design system, keeping the product pages fast and the checkout under three steps.",
+      "development": "Built as a modern web application with a headless architecture — storefront and dashboard share one API and one database.",
+      "result": [
+        [
+          "Conversion",
+          "[METRIC]"
+        ],
+        [
+          "Load time",
+          "[METRIC]"
+        ],
+        [
+          "Monthly orders",
+          "[METRIC]"
+        ]
+      ],
+      "id": "prj-aurora-commerce",
+      "img": "https://picsum.photos/seed/nx-aurora/900/560.jpg"
+    },
+    {
+      "slug": "pulse-dashboard",
+      "title": "Pulse Analytics Dashboard",
+      "cat": "Web Application",
+      "tech": [
+        "React",
+        "Node.js",
+        "MySQL"
+      ],
+      "year": "2025",
+      "seed": "nx-pulse",
+      "desc": "A real-time operations dashboard unifying data from multiple internal tools.",
+      "challenge": "Data lived in five disconnected tools; management decisions were made from week-old spreadsheet exports.",
+      "research": "We audited every report the leadership team used and identified the twelve metrics that actually drove decisions.",
+      "strategy": "One dashboard, one source of truth: consolidate data pipelines first, design the interface second.",
+      "design": "A dense but calm interface — clear hierarchy, dark-first palette, and charts readable at a glance.",
+      "development": "Scheduled data sync jobs feed a normalized database; the frontend renders live views with role-based access.",
+      "result": [
+        [
+          "Reporting time",
+          "[METRIC]"
+        ],
+        [
+          "Data sources unified",
+          "[METRIC]"
+        ],
+        [
+          "Active users",
+          "[METRIC]"
+        ]
+      ],
+      "id": "prj-pulse-dashboard",
+      "img": "https://picsum.photos/seed/nx-pulse/900/560.jpg"
+    },
+    {
+      "slug": "atlas-design-system",
+      "title": "Atlas Design System",
+      "cat": "UI/UX",
+      "tech": [
+        "Figma",
+        "Design Tokens",
+        "Storybook"
+      ],
+      "year": "2024",
+      "seed": "nx-atlas",
+      "desc": "A complete design system for a growing SaaS product team.",
+      "challenge": "Three product teams were shipping increasingly inconsistent interfaces, slowing down both design and development.",
+      "research": "We inventoried every component variant already in production and interviewed both designers and developers about friction points.",
+      "strategy": "Build the system around tokens, not screens — so themes and platforms can change without redesigning everything.",
+      "design": "Forty-plus documented components with clear usage rules, states, and accessibility standards baked in.",
+      "development": "Token export pipeline syncs Figma variables directly to frontend code.",
+      "result": [
+        [
+          "Components documented",
+          "40+"
+        ],
+        [
+          "Design-dev handoff time",
+          "[METRIC]"
+        ],
+        [
+          "UI inconsistencies",
+          "[METRIC]"
+        ]
+      ],
+      "id": "prj-atlas-design-system",
+      "img": "https://picsum.photos/seed/nx-atlas/900/560.jpg"
+    },
+    {
+      "slug": "flowops-automation",
+      "title": "FlowOps Process Automation",
+      "cat": "Digital Solution",
+      "tech": [
+        "Node.js",
+        "Webhooks",
+        "MongoDB"
+      ],
+      "year": "2024",
+      "seed": "nx-flowops",
+      "desc": "Automation pipelines that replaced repetitive manual operations for a logistics team.",
+      "challenge": "A five-person operations team spent most of each day copying data between systems and sending status updates manually.",
+      "research": "We shadowed the team for a week and logged every manual touchpoint in the order lifecycle.",
+      "strategy": "Automate the highest-frequency tasks first; keep humans in the loop for exceptions only.",
+      "design": "A simple control panel where the team defines rules and monitors automation health.",
+      "development": "Event-driven pipelines with retry logic and full audit logging.",
+      "result": [
+        [
+          "Manual hours saved / week",
+          "[METRIC]"
+        ],
+        [
+          "Error rate",
+          "[METRIC]"
+        ],
+        [
+          "Processes automated",
+          "[METRIC]"
+        ]
+      ],
+      "id": "prj-flowops-automation",
+      "img": "https://picsum.photos/seed/nx-flowops/900/560.jpg"
+    },
+    {
+      "slug": "kindercare-web",
+      "title": "KinderCare School Website",
+      "cat": "Website",
+      "tech": [
+        "Next.js",
+        "CMS",
+        "MySQL"
+      ],
+      "year": "2024",
+      "seed": "nx-kindercare",
+      "desc": "A warm, fast school website with an admission funnel and CMS for staff.",
+      "challenge": "The school's old site was slow, hard to update, and losing inquiries from parents on mobile.",
+      "research": "We interviewed parents about what they look for when choosing a school and analyzed where the old site lost them.",
+      "strategy": "Lead with trust: programs, teachers, and a one-minute admission inquiry flow.",
+      "design": "A friendly but professional visual direction with photography-led sections and clear information architecture.",
+      "development": "CMS-driven content so staff publish announcements without developer help.",
+      "result": [
+        [
+          "Inquiry rate",
+          "[METRIC]"
+        ],
+        [
+          "Mobile bounce",
+          "[METRIC]"
+        ],
+        [
+          "Lighthouse score",
+          "[METRIC]"
+        ]
+      ],
+      "id": "prj-kindercare-web",
+      "img": "https://picsum.photos/seed/nx-kindercare/900/560.jpg"
+    },
+    {
+      "slug": "medibook-booking",
+      "title": "MediBook Booking System",
+      "cat": "Web Application",
+      "tech": [
+        "React",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "year": "2023",
+      "seed": "nx-medibook",
+      "desc": "An online appointment booking system for a multi-doctor clinic.",
+      "challenge": "Phone-only booking created queues, double-bookings, and no-shows with no reminder mechanism.",
+      "research": "We mapped the clinic's scheduling rules — doctor availability, room constraints, appointment types.",
+      "strategy": "Self-service booking with automated confirmations and reminders, fully reflecting real availability.",
+      "design": "A guided flow that books an appointment in under a minute, with an admin calendar for staff.",
+      "development": "Conflict-free scheduling engine with transactional slot locking.",
+      "result": [
+        [
+          "No-show rate",
+          "[METRIC]"
+        ],
+        [
+          "Phone workload",
+          "[METRIC]"
+        ],
+        [
+          "Bookings online",
+          "[METRIC]"
+        ]
+      ],
+      "id": "prj-medibook-booking",
+      "img": "https://picsum.photos/seed/nx-medibook/900/560.jpg"
+    }
+  ],
+  "posts": [
+    {
+      "slug": "why-performance-matters",
+      "cat": "Web Development",
+      "title": "Why Website Performance Directly Affects Revenue",
+      "date": "Mar 12, 2026",
+      "read": "6 min",
+      "author": "[AUTHOR]",
+      "seed": "nx-blog-perf",
+      "excerpt": "Every extra second of load time costs you visitors. Here is the business case for treating speed as a feature, not a technical detail.",
+      "body": "## Speed is a business metric\n\nWhen a website takes three seconds to load, a significant portion of visitors leave before seeing anything. Those are not anonymous statistics — they are potential customers who made a judgment about your business in the time it took a page to appear.\n\nThat judgment is unfair, but it is predictable. This is why we treat performance as a product feature with a measurable impact, not as a technical afterthought.\n\n## Where performance is usually lost\n\nThe usual culprits are unoptimized images, heavy third-party scripts, and hosting that was chosen for price rather than suitability. None of these are exotic problems — they are discipline problems.\n\nA performance-first build addresses them from the start: responsive images, minimal JavaScript, and infrastructure sized to real traffic.\n\n## What to do this week\n\nRun your site through a performance audit. If it scores below what you would accept from a supplier in any other part of your business, it is costing you money — and it is fixable.",
+      "id": "post-why-performance-matters",
+      "status": "Published"
+    },
+    {
+      "slug": "design-systems-explained",
+      "cat": "UI/UX",
+      "title": "Design Systems, Explained for Non-Designers",
+      "date": "Feb 28, 2026",
+      "read": "5 min",
+      "author": "[AUTHOR]",
+      "seed": "nx-blog-ds",
+      "excerpt": "A design system is not a Figma file — it is the agreement that keeps your product consistent while it grows.",
+      "body": "## The consistency problem\n\nEvery growing product eventually hits the same wall: buttons look slightly different on ten different pages, and nobody knows which one is correct. Each fix creates two new inconsistencies.\n\nA design system solves this by defining the components once — buttons, forms, colors, spacing — and making them the single source of truth.\n\n## Why it saves money\n\nWithout a system, every new feature starts from visual scratch and every developer interprets designs slightly differently. With one, teams assemble interfaces from proven parts.\n\nThe result is faster shipping, fewer design debates, and an interface that feels deliberate to your users.",
+      "id": "post-design-systems-explained",
+      "status": "Published"
+    },
+    {
+      "slug": "digital-transformation-umkm",
+      "cat": "Digital Transformation",
+      "title": "Digital Transformation for Small Businesses: Where to Start",
+      "date": "Feb 10, 2026",
+      "read": "7 min",
+      "author": "[AUTHOR]",
+      "seed": "nx-blog-dt",
+      "excerpt": "You do not need a moonshot. You need a spreadsheet, a website, and one automated process.",
+      "body": "## Start with the boring repetitive task\n\nEvery small business has one: the manual data entry, the copy-pasted reports, the appointment book. That task is your starting point — not AI, not a company-wide platform.\n\nAutomating a single high-frequency process delivers visible savings within weeks and builds momentum for the next step.\n\n## Own your online presence\n\nRelying entirely on marketplaces and social platforms means renting your customer relationships. A website you control turns attention into an asset.\n\nIt does not need to be complex. It needs to be fast, clear about what you offer, and easy to contact.\n\n## Measure something\n\nDigital transformation without measurement is just spending. Pick one number — inquiries per week, hours saved, response time — and watch it move.",
+      "id": "post-digital-transformation-umkm",
+      "status": "Published"
+    },
+    {
+      "slug": "choosing-tech-stack",
+      "cat": "Technology",
+      "title": "How to Choose a Tech Stack Without the Hype",
+      "date": "Jan 22, 2026",
+      "read": "6 min",
+      "author": "[AUTHOR]",
+      "seed": "nx-blog-stack",
+      "excerpt": "The best stack is not the newest one — it is the one your team can maintain in five years.",
+      "body": "## Optimize for maintainability\n\nEvery technology choice is a long-term relationship. A framework that is exciting today but poorly documented or shrinking in community will be expensive tomorrow.\n\nWe evaluate stacks on four factors: ecosystem maturity, hiring pool, documentation quality, and how boring the boring parts are.\n\n## Match the stack to the problem\n\nA marketing site does not need the architecture of a banking system. A dashboard does not need a microservice fleet. Choosing appropriately-sized technology is a sign of maturity, not lack of ambition.\n\nThe right question is never \"what is trending\" — it is \"what will still be easy to change in three years.\"",
+      "id": "post-choosing-tech-stack",
+      "status": "Published"
+    },
+    {
+      "slug": "seo-fundamentals",
+      "cat": "Business",
+      "title": "SEO Fundamentals Every Business Website Needs",
+      "date": "Jan 8, 2026",
+      "read": "5 min",
+      "author": "[AUTHOR]",
+      "seed": "nx-blog-seo",
+      "excerpt": "No tricks — the four foundations that determine whether search engines can actually recommend you.",
+      "body": "## Be understandable to machines\n\nSearch engines read structure: headings, semantic markup, page titles, meta descriptions. If your content is a wall of unstructured divs, you are asking to be misunderstood.\n\nSemantic HTML is not academic purity — it is how your pages get correctly represented in search results.\n\n## Be fast and be mobile\n\nSpeed and mobile experience are ranking factors because they are user experience factors. The sites that win are the ones that respect the visitor's time.\n\n## Answer real questions\n\nThe most durable SEO strategy is writing content that genuinely answers what your customers search for. Everything else decays; usefulness compounds.",
+      "id": "post-seo-fundamentals",
+      "status": "Published"
+    },
+    {
+      "slug": "company-news-launch",
+      "cat": "Company News",
+      "title": "NEXARION Launches New Service Line (Placeholder)",
+      "date": "Dec 18, 2025",
+      "read": "3 min",
+      "author": "[AUTHOR]",
+      "seed": "nx-blog-news",
+      "excerpt": "Replace this article with your real company announcements — launches, partnerships, milestones.",
+      "body": "## A template for real news\n\nThis article exists as a placeholder so your blog never looks empty during development. Replace it with actual company news: new services, new team members, event participation, or milestones.\n\nAuthentic announcements build more trust than a perfectly polished blog with nothing real in it.",
+      "id": "post-company-news-launch",
+      "status": "Published"
+    }
+  ],
+  "team": [
+    {
+      "name": "[TEAM MEMBER 01]",
+      "role": "Founder & CEO",
+      "bio": "Replace with a short biography: background, what they lead at NEXARION, and one human detail.",
+      "skills": [
+        "Strategy",
+        "Product"
+      ],
+      "id": "team-team-member-01"
+    },
+    {
+      "name": "[TEAM MEMBER 02]",
+      "role": "Technology Lead",
+      "bio": "Replace with a short biography: technical background, areas of expertise, and how they approach engineering.",
+      "skills": [
+        "Architecture",
+        "Backend"
+      ],
+      "id": "team-team-member-02"
+    },
+    {
+      "name": "[TEAM MEMBER 03]",
+      "role": "Frontend Developer",
+      "bio": "Replace with a short biography: specialization, favorite kind of problem to solve, and approach to craft.",
+      "skills": [
+        "React",
+        "Performance"
+      ],
+      "id": "team-team-member-03"
+    },
+    {
+      "name": "[TEAM MEMBER 04]",
+      "role": "UI/UX Designer",
+      "bio": "Replace with a short biography: design philosophy, research background, and what good design means to them.",
+      "skills": [
+        "Research",
+        "Systems"
+      ],
+      "id": "team-team-member-04"
+    },
+    {
+      "id": "team-project-manager",
+      "name": "[TEAM MEMBER 05]",
+      "role": "Project Manager",
+      "bio": "Replace with a short biography: how they keep projects on time, scope honest, and clients informed.",
+      "skills": [
+        "Delivery",
+        "Communication"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "testi-client-name-0",
+      "quote": "Replace this content with an authentic client testimonial. Ask a satisfied client to describe the problem they had, the result they got, and what working with the team felt like.",
+      "name": "[CLIENT NAME]",
+      "role": "[POSITION], [COMPANY]"
+    },
+    {
+      "id": "testi-client-name-1",
+      "quote": "Replace this content with an authentic client testimonial. Specific numbers and concrete outcomes make testimonials far more credible than general praise.",
+      "name": "[CLIENT NAME]",
+      "role": "[POSITION], [COMPANY]"
+    },
+    {
+      "id": "testi-client-name-2",
+      "quote": "Replace this content with an authentic client testimonial. One or two genuine sentences outperform a paragraph of generic superlatives.",
+      "name": "[CLIENT NAME]",
+      "role": "[POSITION], [COMPANY]"
+    }
+  ],
+  "jobs": [
+    {
+      "type": "Full-time",
+      "loc": "[LOCATION]",
+      "desc": "Build fast, accessible interfaces for client projects across industries.",
+      "resp": [
+        "Develop responsive, accessible web interfaces",
+        "Collaborate with designers on implementation quality",
+        "Optimize performance and Core Web Vitals",
+        "Participate in code reviews and mentoring"
+      ],
+      "req": [
+        "Solid HTML, CSS, and JavaScript fundamentals",
+        "Experience with a modern framework (React/Next.js)",
+        "Attention to detail and care for users",
+        "Portfolio of real projects"
+      ],
+      "id": "job-frontend-developer",
+      "title": "Frontend Developer",
+      "status": "Open"
+    },
+    {
+      "type": "Full-time",
+      "loc": "[LOCATION]",
+      "desc": "Design reliable APIs, data models, and systems that power client products.",
+      "resp": [
+        "Design and build REST APIs and services",
+        "Model databases for clarity and scale",
+        "Implement authentication, security, and integrations",
+        "Write maintainable, tested code"
+      ],
+      "req": [
+        "Strong Node.js or Python experience",
+        "SQL and NoSQL database proficiency",
+        "Understanding of security fundamentals",
+        "Clear written communication"
+      ],
+      "id": "job-backend-developer",
+      "title": "Backend Developer",
+      "status": "Open"
+    },
+    {
+      "type": "Full-time",
+      "loc": "[LOCATION]",
+      "desc": "Turn research and business goals into interfaces people understand instantly.",
+      "resp": [
+        "Run user research and usability testing",
+        "Design flows, wireframes, and hi-fi interfaces",
+        "Build and maintain design systems",
+        "Present and defend design decisions"
+      ],
+      "req": [
+        "Strong Figma and prototyping skills",
+        "Portfolio demonstrating process, not just visuals",
+        "Understanding of accessibility principles",
+        "Empathy for non-technical users"
+      ],
+      "id": "job-ui-ux-designer",
+      "title": "UI/UX Designer",
+      "status": "Open"
+    },
+    {
+      "type": "Full-time",
+      "loc": "[LOCATION]",
+      "desc": "Keep projects honest — scope, timeline, and communication between team and client.",
+      "resp": [
+        "Plan sprints and manage delivery timelines",
+        "Communicate progress transparently with clients",
+        "Anticipate risks before they become problems",
+        "Facilitate between technical and business stakeholders"
+      ],
+      "req": [
+        "2+ years managing digital projects",
+        "Excellent written and verbal communication",
+        "Familiarity with web development lifecycles",
+        "Calm under pressure"
+      ],
+      "id": "job-project-manager",
+      "title": "Project Manager",
+      "status": "Open"
+    },
+    {
+      "type": "Full-time",
+      "loc": "[LOCATION]",
+      "desc": "Grow NEXARION's presence and help clients understand the value of good digital strategy.",
+      "resp": [
+        "Plan and execute content marketing",
+        "Manage social media channels",
+        "Analyze campaign performance and iterate",
+        "Support lead nurturing and conversion"
+      ],
+      "req": [
+        "Experience in B2B or tech marketing",
+        "Strong copywriting in English",
+        "Analytics tool proficiency",
+        "Curiosity about technology"
+      ],
+      "id": "job-digital-marketing",
+      "title": "Digital Marketing",
+      "status": "Open"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does it take to build a website?",
+      "a": "It depends on complexity. A focused landing page can be ready in 1–2 weeks; a company profile site typically takes 3–6 weeks; e-commerce platforms and web applications usually take 6–12 weeks or more. After our discovery session, we give you a realistic timeline with clear milestones — and we keep you updated at every stage.",
+      "id": "faq-1-how-long-does-it-take-to-build"
+    },
+    {
+      "q": "Can you build a custom website?",
+      "a": "Yes. Everything we build is designed and developed around your specific goals — no forced templates. If a template genuinely serves your budget and timeline better, we will tell you that honestly too.",
+      "id": "faq-2-can-you-build-a-custom-website"
+    },
+    {
+      "q": "Do you provide maintenance?",
+      "a": "Yes. We offer structured maintenance plans covering updates, security patches, performance monitoring, backups, and priority support, so your product stays healthy long after launch.",
+      "id": "faq-3-do-you-provide-maintenance"
+    },
+    {
+      "q": "Can you integrate third-party APIs?",
+      "a": "Yes. We regularly integrate payment gateways, shipping services, CRM tools, WhatsApp APIs, maps, and custom internal APIs. During discovery we validate the exact services you need.",
+      "id": "faq-4-can-you-integrate-third-party"
+    },
+    {
+      "q": "Do you provide hosting and domain?",
+      "a": "Availability depends on the selected package. Some packages include managed hosting and domain handling; others assume you already have infrastructure. We will recommend the most suitable setup for your project and budget.",
+      "id": "faq-5-do-you-provide-hosting-and-dom"
+    },
+    {
+      "q": "Can I request custom features?",
+      "a": "Absolutely. Custom features are our core work. Describe what you need during the inquiry process and we will assess feasibility, effort, and the smartest way to build it.",
+      "id": "faq-6-can-i-request-custom-features"
+    }
+  ],
+  "pricing": [
+    {
+      "id": "price-starter",
+      "name": "Starter",
+      "price": "Rp 3,5 jt",
+      "per": "/project*",
+      "tagline": "For simple digital needs — get a credible online presence fast.",
+      "features": "1–5 page website\nMobile-responsive design\nBasic SEO setup\nContact form\n1 revision round\nDelivery: 2–3 weeks",
+      "popular": false
+    },
+    {
+      "id": "price-business",
+      "name": "Business",
+      "price": "Rp 9,8 jt",
+      "per": "/project*",
+      "tagline": "For businesses that need a professional, conversion-ready website.",
+      "features": "Up to 12 pages\nCustom UI/UX design\nCMS-ready content management\nPerformance & SEO optimization\n3 revision rounds\n30 days post-launch support\nDelivery: 4–6 weeks",
+      "popular": true
+    },
+    {
+      "id": "price-professional",
+      "name": "Professional",
+      "price": "Rp 24,9 jt",
+      "per": "/project*",
+      "tagline": "For companies with more complex requirements and integrations.",
+      "features": "Unlimited pages / web application\nCustom design system\nAPI & third-party integrations\nAdmin dashboard\nAdvanced analytics setup\n90 days post-launch support\nDelivery: 8–12 weeks",
+      "popular": false
+    }
+  ]
+}
